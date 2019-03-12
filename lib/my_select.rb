@@ -4,5 +4,7 @@ def my_select(collection)
  i = 0 
  while i < collection
   empty_array << yield(collection[i])
+  i += 1
  end
+ empty_array
 end
