@@ -3,6 +3,6 @@ def my_select(collection)
  empty_array = []
  i = 0 
  while i < collection
-  empty_array <<
+  empty_array << yield(collection[i])
  end
 end
