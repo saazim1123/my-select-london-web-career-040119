@@ -2,7 +2,7 @@ def my_select(collection)
  # your code here!
  empty_array = []
  i = 0 
- while i < collection.length
+ while i < collection.size
   
   empty_array << yield(collection[i])
   i += 1
